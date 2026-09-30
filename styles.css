@@ -42,7 +42,7 @@ body {
   align-items: baseline;
   justify-content: center;
   gap: clamp(1.1rem, 3vw, 2.4rem);
-  font-size: clamp(1.15rem, 2.2vw, 1.58rem);
+  font-size: clamp(1.45rem, 2.2vw, 1.58rem);
   letter-spacing: 0.045em;
   white-space: nowrap;
 }
@@ -195,7 +195,7 @@ body {
 
   .readout {
     flex-direction: column;
-    gap: .65rem;
+    gap: 1.5rem;
     align-items: center;
   }
 
