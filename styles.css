@@ -185,6 +185,23 @@ body {
   color: var(--accent);
 }
 
+.isotype-watermark {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  width: 4.25rem;
+  opacity: 0.8;
+  pointer-events: none;
+  z-index: 0;
+  line-height: 0;
+}
+
+.isotype-watermark img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 @media (max-width: 600px) {
   .interface { padding: 1.25rem; }
 
@@ -208,6 +225,12 @@ body {
     gap: .65rem;
     font-size: .62rem;
     letter-spacing: .08em;
+  }
+
+  .isotype-watermark {
+    right: .9rem;
+    bottom: .9rem;
+    width: 2.5rem;
   }
 }
 
