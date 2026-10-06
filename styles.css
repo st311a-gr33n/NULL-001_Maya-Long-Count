@@ -228,9 +228,9 @@ body {
   }
 
   .isotype-watermark {
-    right: .9rem;
-    bottom: .9rem;
-    width: 2.5rem;
+    left: .9rem;
+    top: .9rem;
+    width: 3.5rem;
   }
 }
 
